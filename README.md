@@ -51,3 +51,7 @@ Now your /local/backupdir is ready to be used as /var/lib/mysql. You can use it 
 ```
 xtrabackup --copy-back --target-dir=/local/backupdir
 ```
+
+# Useful links
+Percona official manual - https://www.percona.com/doc/percona-xtrabackup/2.4/index.html
+Cheat sheet by Ivan Groenewold - https://blog.pythian.com/xtrabackup-cheat-sheet/
