@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     gnupg2
 
 RUN wget https://repo.percona.com/apt/percona-release_latest.focal_all.deb \
-    dpkg -i percona-release_latest.focal_all.deb
+    && dpkg -i percona-release_latest.focal_all.deb
 
 RUN apt-get update && apt-get install -y \
     percona-xtrabackup-24 \
