@@ -3,7 +3,7 @@ Dockerfile for Percona Xtrabackup 2.4 with qpress for decompressing
 
 # How to CREATE backup
 ```
- run -it --rm \
+ docker run -it --rm \
   -v /local/backupdir:/backupdir \
   -v /local/my.cnf.d:/etc/my.cnf.d:ro \
   -v /local/lib/mysql:/var/lib/mysql:ro \
